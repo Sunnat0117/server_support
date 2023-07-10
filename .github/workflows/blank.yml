@@ -41,6 +41,6 @@ jobs:
            username: ${{ secrets.USERNAME }}
            password: ${{ secrets.PASSWORD }}
            port: ${{ secrets.PORT }}
-           script: whoami && ls && pwd && docker ps && cat hello
+           script: whoami && ls && pwd && docker ps && cd /home/radmin/raqamliAvlod/server_support &&  cat hello
           
 
